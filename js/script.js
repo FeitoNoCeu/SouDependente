@@ -175,3 +175,5 @@ document.addEventListener("mouseup", dragStop);
 carrossel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
+
+//Quiz
