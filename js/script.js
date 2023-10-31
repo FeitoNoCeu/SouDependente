@@ -169,11 +169,10 @@ const autoPlay = () => {
 }
 autoPlay();
 
+
 carrossel.addEventListener("mousedown", dragStart);
 carrossel.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
 carrossel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
-
-//Quiz

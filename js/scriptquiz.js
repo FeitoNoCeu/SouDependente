@@ -22,6 +22,8 @@ function storeAnswer(question_number, event){
     }
 }
 
+
+
 question_one.addEventListener('click', function(event){
     storeAnswer(1, event)
 })
@@ -135,3 +137,18 @@ function growProgressBar(percentage_width){
     var bar = document.getElementById("progress_bar");
     bar.style.width = percentage_width;
 }
+
+
+
+
+
+//tests
+
+const radioButtons = document.querySelectorAll('input[type="radio"]');
+const myButton = document.getElementById('submitbutton');
+
+radioButtons.forEach(radioButton => {
+    radioButton.addEventListener('click', () => {
+        myButton.removeAttribute('disabled');
+    });
+});

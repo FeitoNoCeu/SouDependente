@@ -1,0 +1,79 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon" />
+
+    <title>Sou Dependente</title>
+
+</head>
+<body class="light" >
+    <div vw class="disabled">
+        <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+    </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+    <div class="cardconfig col-12">
+
+        <div class="card cardconfigd">
+            <container class="painel">
+                <div class="row">
+                        <h1>opções</h1>
+                        <div class="col-md-6">
+                            <h2 class="subtexto">troca de tema</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="switch">
+                                <input type="checkbox" id="theme">
+                                <span class="slider round"></span>
+                              </label>
+                        </div>
+                        <div class="col-6">
+                            <h2 class="subtexto">Vlibras</h2>
+                        </div>
+                        <div class="col-md-6 botoes">
+                            <label class="switch">
+                                <input type="checkbox" id="vlibras">
+                                <span class="slider round"></span>
+                              </label>
+                        </div>
+                    <div class="row" style="justify-content: right;">
+                            <a href="index.html" type="button" class="btn btn-primary btn-sm  botão2">
+                              <h2 class="botao-teste2">voltar</h2>
+                            </a>
+                    </div>
+
+                </div>
+            </container>
+        </div>
+
+    </div>
+
+<script>
+    const tema = document.getElementById("theme")
+
+    tema.addEventListener('click', function() {
+        
+    })
+</script>
+
+<!-- SCRIPT -->
+<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+<script src="acess.js"></script>
+</body>
+</html>
